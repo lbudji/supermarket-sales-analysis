@@ -64,7 +64,7 @@ def fp_growth_algorithm(encoded_df):
 
 if __name__ == "__main__":
     df = pd.read_csv(
-        r"C:\Users\hp\Desktop\sem5\DM\proj\supermarket_sales - Sheet1.csv")
+        r"F:\Mes Projets\supermarket-sales-analysis-master\additional_files\memory_profiling_script.py")
     df = preprocess_data(df)
 
     apriori_df = prepare_apriori_data(df)
